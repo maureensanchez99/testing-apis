@@ -11,13 +11,13 @@ import "@tomtom-international/web-sdk-maps/dist/maps.css";
 function App() {
   const [map, setMap] = useState();
   const mapContainer = useRef();
-  const AMSTERDAM = { lon: 4.896029, lat: 52.371807 };
+  const LSUSTUDENTUNION = { lon: -91.168953, lat: 30.403860 };
   
   useEffect(() => {
     let map = tt.map({
       key: "qgsuBcvctE2xWrChbABEv2mcoxa21qoV",
       container: mapContainer.current.id,
-      center: AMSTERDAM,
+      center: LSUSTUDENTUNION,
       zoom: 10,
       language: "en-GB",
     });
