@@ -1,4 +1,4 @@
-import './LiveData.css';
+import './App.css';
 
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
